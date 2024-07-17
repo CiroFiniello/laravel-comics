@@ -1,7 +1,61 @@
 // @import "~bootstrap/scss/bootstrap.scss";
 header#app-header{
     @import './partials/header';
-}
+    a {
+        text-decoration: none;
+        color: #50504f;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+        color: white;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+    }
+
+    li {
+        margin-bottom: .4rem;
+    }
+        nav{
+            background-color: white;
+            height: 150px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+                .menu{
+                        justify-content: flex-end;
+                        gap: .25rem;
+                        align-self: baseline;
+                        margin-top: 2rem;
+                    }
+                    ul{
+                    align-items: center;
+                    display: flex;
+                    width: 100%;
+                    .logo{
+                        position: absolute;
+                        left: 13%;
+                        transform: scale(.8);
+                    }
+                    li{
+                        padding: .5rem;
+                        list-style-type: none;
+                        font-size: .8rem;
+                        font-weight: bold;
+                        color: #50504f;
+                        &.active{
+                            color: #0282f9;
+                        }
+                        &:hover{
+                            color:#0282f9;
+                        }
+                    }
+                }
+        }
+    }
+    main{
+        background-color: #1c1c1c;
+    }
 main#app-main{
     .jumbotron{
         width: 100%;
@@ -16,10 +70,121 @@ main#app-main{
         font-weight: bold;
         position: absolute;
         left: 20%;
-        top: 45%;
+        top: 63%;
     }
-    .cards{
-        background-color: #1c1c1c;
-        width: 100%;
+
     }
+    section.list-cards{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 70%;
+        margin: 0 auto;
+        padding : 2rem;
+        margin-top: 1rem;
+        text-align: center;
+        article.card{
+            width: calc((100% / 6) - 1rem);
+            margin-right: 1rem;
+            color: white;
+            justify-content: center;
+            img{
+                width: 100%;
+            }
+        }
+
 }
+section.list-shop{
+            background-color: #0282f9;
+            padding: 1rem;
+            width: 100%;
+            ul{
+                display: flex;
+                width: 100%;
+                justify-content: space-around;
+                align-items: center;
+            }
+            ul>li{
+                list-style-type: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                p{
+                    margin-left: 1rem;
+                }
+            }
+        }
+footer#app-footer{
+    background-image: url('../img/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 100%;
+
+    ul>li{
+        list-style-type: none;
+        color: grey;
+    }
+
+    div {
+        justify-content: space-between;
+        display: flex;
+        width: 100%;
+
+
+
+        nav {
+            display: flex;
+            width: 100%;
+            margin: 3rem;
+            section{
+                width: calc(100% / 3);
+            }
+        }
+
+        figure {
+            position: relative;
+            width: 70%;
+            overflow: hidden;
+
+            img {
+                position: absolute;
+                right: 0;
+                top: -100px
+            }
+        }
+    }
+    div{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+
+        h3 {
+            color: white;
+            text-transform: uppercase;
+            font-size: 1.4rem;
+        }
+
+        a {
+            margin-right: 1rem;
+        }
+    }
+
+    button {
+        border: 2px solid #0282f9;
+        background-color: transparent;
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+        font-size: 1.2rem;
+        color: white;
+        text-transform: uppercase;
+        padding: .8rem;
+    }
+
+
+}
+
+
+

@@ -1,40 +1,53 @@
+
 <footer id="app-footer">
     <div class="container">
         <nav>
             <section>
                 <h3>dc comics</h3>
-                <ul class="mb-1">
-                    <li>
-                        <a :href="#"></a>
-                    </li>
+                <ul>
+                    <li>Characters</li>
+                    <li>Comics</li>
+                    <li>Movies</li>
+                    <li>Tv</li>
+                    <li>Games</li>
+                    <li>Videos</li>
+                    <li>News</li>
                 </ul>
                 <h3>shop</h3>
                 <ul>
-                    <li>
-                        <a :href="#"></a>
-                    </li>
+                    <li>Shop Dc</li>
+                    <li>Shop Dc Colectibles</li>
                 </ul>
             </section>
             <section>
                 <h3>dc</h3>
                 <ul>
-                    <li>
-                        <a :href="#"></a>
-                    </li>
+                    <li>Terms Of Use</li>
+                    <li>Privacy policy(new)</li>
+                    <li>Ad Choices</li>
+                    <li>Advertising</li>
+                    <li>§Jobs</li>
+                    <li>Subscriptions</li>
+                    <li>Talent Workshops</li>
+                    <li>CPSC Certificates</li>
+                    <li>Ratings</li>
+                    <li>Shop Help</li>
+                    <li>Contact Us</li>
                 </ul>
             </section>
             <section>
                 <h3>sites</h3>
                 <ul>
-                    <li>
-                        <a :href="#"></a>
-                    </li>
+                    <li>Dc</li>
+                    <li>MAD Magazine</li>
+                    <li>Dc Kids</li>
+                    <li>Dc Universe</li>
+                    <li>Dc Power Visa</li>
                 </ul>
             </section>
         </nav>
-        {{-- background img --}}
-        {{-- <figure>
-            <img src="../assets/img/dc-logo-bg.png" alt="">
-        </figure> --}}
+        <figure>
+            <img src="resources/img/dc-logo-bg.png" alt="">
+        </figure>
     </div>
 </footer>

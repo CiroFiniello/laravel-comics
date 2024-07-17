@@ -11,11 +11,11 @@
 <body>
     @include('pages.partials.header')
 
-    <main>
+    <main id="app-main">
         @include('pages.partials.main')
         @yield('main-content')
     </main>
-
+    @include('pages.partials.jumbofooter')
     @include('pages.partials.footer')
 
     @yield('custom-scripts')
