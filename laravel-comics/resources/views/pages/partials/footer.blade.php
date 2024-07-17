@@ -1,4 +1,4 @@
-<footer>
+<footer id="app-footer">
     <div class="container">
         <nav>
             <section>
